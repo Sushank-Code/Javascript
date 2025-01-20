@@ -1,0 +1,28 @@
+body{
+    background-color: green;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   text-align: center;
+}
+.signin ,.load{
+    padding: 20px;
+    /* background-color: red; */
+    margin: 40px;
+}
+.signin label ,.pass label{
+    display: block;
+    margin-bottom: 15px;
+}
+
+
