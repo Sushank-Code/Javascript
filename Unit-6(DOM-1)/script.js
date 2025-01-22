@@ -9,7 +9,6 @@
 // Node type = text , comment , element
 console.log(document.body.firstChild);  // firstchild & lastchild
 
-
 // accessing element
 console.log(document.body.children[1]);
 console.log(document.body.lastElementChild);

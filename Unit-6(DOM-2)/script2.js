@@ -5,7 +5,7 @@ newBtn.innerText = "Submit";
 
 let div = document.querySelector("div");
 
-div.append(newBtn);
+div.append(newBtn);            // This property is used only for adding element or text node
 // div.prepend(newBtn);
 // div.before(newBtn);   
 // div.after(newBtn);      
