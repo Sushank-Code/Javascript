@@ -10,7 +10,7 @@
 let guessNum = 25;
 
 let userguess = Number(prompt("Ente the number"));
-while(userguess != guessNum){
+while (userguess != guessNum) {
     userguess = Number(prompt("You guessed Wrong ! Enter again"));
 }
 alert("you guessed right");

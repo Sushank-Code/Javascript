@@ -2,9 +2,9 @@
 
 //push
 
-let arr = ["pen","copy","pencil","Book"];
+let arr = ["pen", "copy", "pencil", "Book"];
 let arr2 = [];
-let arr3 =["heloo","hi"];
+let arr3 = ["heloo", "hi"];
 
 arr.push("Colorpen");
 console.log(arr);
@@ -20,8 +20,8 @@ console.log(arr);
 
 // tostring
 
-let marks=[97,46,76];
-let items=["potato","burger","meat","mutton","tandoori"];
+let marks = [97, 46, 76];
+let items = ["potato", "burger", "meat", "mutton", "tandoori"];
 
 console.log(marks.toString());
 console.log(items.toString());
@@ -34,7 +34,7 @@ console.log(join);
 // unshift & shift  ==> same as push and pop but add and remove from start
 
 marks.unshift(48);
-console.log(marks);   
+console.log(marks);
 
 marks.shift();
 console.log(marks);
@@ -46,6 +46,9 @@ console.log(items.slice(-3,));
 // splice
 
 // let del = items.splice(2,2);  // remove element from 2 index and how many element to remove 2
-let del = items.splice(2,2,"masu","Khasi"); // can be added item at that index which is removed
+
+let del = items.splice(2, 2, "masu", "Khasi"); 
+// can be added item at that index which is removed
+
 items.splice(2);                            // removing all items from 2th index
 console.log(items);

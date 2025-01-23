@@ -1,9 +1,12 @@
-let marks = [ 97, 82 , 75 , 84];        // Array are Mutable but strings are not 
+
+ // Array are Mutable but strings are not 
+
+let marks = [97, 82, 75, 84];       
 console.log(marks);
 console.log(marks.length);
 
 console.log(marks[0]);
-console.log(marks.slice(0,3));        // slicing
+console.log(marks.slice(0, 3));        // slicing
 
 marks[0] = 90;               // Updating
 console.log(marks);
@@ -24,20 +27,20 @@ console.log(marks);
 
 // Question ( Finding average)
 
-let marks_s = [85,97,44,37,76,60];
+let marks_s = [85, 97, 44, 37, 76, 60];
 let sum = 0;
-for(let i of marks_s){
-    sum += i ;
+for (let i of marks_s) {
+    sum += i;
 }
-let avg = sum/marks_s.length;
+let avg = sum / marks_s.length;
 console.log(avg);
 
 // Question
-let price = [250,645,300,900,50];
+let price = [250, 645, 300, 900, 50];
 let discoutPrice = [];
 
-for (let i of price){
-    let i_price = (i * 10)/100;
+for (let i of price) {
+    let i_price = (i * 10) / 100;
     i = i - i_price;
     discoutPrice.push(i);
 }
