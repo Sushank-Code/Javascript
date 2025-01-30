@@ -12,8 +12,8 @@ const student = {
 
 const income = {
     fullName: "Hero",
-    salary() {                                        // Other method of defining func in Objects
-        console.log("Salary is : 10000");
+    salary() {                                 // Other method of defining func in Objects
+        console.log("Salary is : 10000");      // we donot have to write function keyword in obj
     }
 };
 const income2 = {
