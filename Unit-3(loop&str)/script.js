@@ -26,7 +26,7 @@ while (u <= 5) {
 
 let z = 20;
 do {
-    console.log("Sushank Lamsal");      // execute at least one time even if cond doesnot match
+    console.log("Sushank Lamsal");// execute at least one time even if cond doesnot match
 } while (z <= 10);
 
 // for - of Loop      (string & array)
