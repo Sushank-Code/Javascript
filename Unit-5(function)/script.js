@@ -43,7 +43,7 @@ checkVowel(str);
 let arr = [1, 2, 3, 4, 5];
 
 arr.forEach((element, index, arr) => {  // takes 3 argument(individual values,index & array itself)
-    console.log(element, index, arr);    // can only be taken 1 argument too.
+    console.log(element, index, arr);    // can only be given 1 argument too.
 });
 
 let arr2 = [];

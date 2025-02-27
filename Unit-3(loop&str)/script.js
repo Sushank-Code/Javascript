@@ -4,7 +4,7 @@ for (let i = 1; i <= 5; i++) {
     console.log("Sushank Lamsal");
 }
 
-// let n =Number(prompt("Enter the number"));
+// let n = Number(prompt("Enter the number"));
 let n = 10;
 let s = 0;
 

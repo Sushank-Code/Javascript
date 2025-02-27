@@ -28,7 +28,6 @@ body{
 }
 
 
-
 /* sholace css */
 .card-overview {
   max-width: 300px;
@@ -44,6 +43,3 @@ body{
   align-items: center;
 }
 
-.lastbutton{
-    background-color: blueviolet;
-}

@@ -12,22 +12,21 @@
 
 <body>
     <div class="container">
-        <div class="buttons">
-            <sl-button-group label="Alignment">
-                <sl-button variant="primary">ALL</sl-button>
-                <sl-button variant="success">Burger</sl-button>
-                <sl-button variant="danger">Pizza</sl-button>
-                <sl-button >Hot Dog</sl-button>
-                <sl-button variant="warning">Drinks</sl-button>
+        <div class="buttons ">
+            <sl-button-group label="Alignment" class="button-group filter-button-group">
+                <sl-button variant="primary" data-filter="*">ALL</sl-button>
+                <sl-button variant="success" data-filter=".burger">Burger</sl-button>
+                <sl-button variant="danger" data-filter=".pizza">Pizza</sl-button>
+                <sl-button data-filter=".hotdog">HotDog</sl-button>
+                <sl-button variant="warning" data-filter=".drinks">Drinks</sl-button>
             </sl-button-group>
         </div>
         <div class="cards">
-            <sl-card class="card-overview">
-                <img slot="image"
-                    src="pic/burger1.jpg"
+            <sl-card class="card-overview burgerclass burger">
+                <img slot="image" src="pic/burger1.jpg"
                     alt="A kitten sits patiently between a terracotta pot and decorative grasses." />
 
-                <strong>Mittens</strong><br />
+                <strong>Burger1</strong><br />
                 This kitten is as cute as he is playful. Bring him home today!<br />
                 <small>6 weeks old</small>
 
@@ -37,12 +36,11 @@
                 </div>
             </sl-card>
 
-            <sl-card class="card-overview">
-                <img slot="image"
-                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+            <sl-card class="card-overview pizzaclass pizza">
+                <img slot="image" src="pic/pizza1.jpg"
                     alt="A kitten sits patiently between a terracotta pot and decorative grasses." />
 
-                <strong>Mittens</strong><br />
+                <strong>Pizza-1</strong><br />
                 This kitten is as cute as he is playful. Bring him home today!<br />
                 <small>6 weeks old</small>
 
@@ -52,12 +50,11 @@
                 </div>
             </sl-card>
 
-            <sl-card class="card-overview">
-                <img slot="image"
-                    src="pic/burger2.0.jpg"
+            <sl-card class="card-overview burgerclass burger">
+                <img slot="image" src="pic/burger2.0.jpg"
                     alt="A kitten sits patiently between a terracotta pot and decorative grasses." />
 
-                <strong>Mittens</strong><br />
+                <strong>Burger-2</strong><br />
                 This kitten is as cute as he is playful. Bring him home today!<br />
                 <small>6 weeks old</small>
 
@@ -67,12 +64,11 @@
                 </div>
             </sl-card>
 
-            <sl-card class="card-overview">
-                <img slot="image"
-                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-                    alt="A kitten sits patiently between a terracotta pot and decorative grasses." />
+            <sl-card class="card-overview pizzaclass pizza">
+                <img slot="image" src="pic/pizza2.jpg"
+                    alt="A kitten sits patiently between a terracotta pot and decorative grasses." height="200px" />
 
-                <strong>Mittens</strong><br />
+                <strong>Pizza-2</strong><br />
                 This kitten is as cute as he is playful. Bring him home today!<br />
                 <small>6 weeks old</small>
 
@@ -82,12 +78,11 @@
                 </div>
             </sl-card>
 
-            <sl-card class="card-overview">
-                <img slot="image"
-                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+            <sl-card class="card-overview hotdogclass hotdog">
+                <img slot="image" src="pic/hotdog1.jpg"
                     alt="A kitten sits patiently between a terracotta pot and decorative grasses." />
 
-                <strong>Mittens</strong><br />
+                <strong>HotDog-1</strong><br />
                 This kitten is as cute as he is playful. Bring him home today!<br />
                 <small>6 weeks old</small>
 
@@ -97,12 +92,11 @@
                 </div>
             </sl-card>
 
-            <sl-card class="card-overview">
-                <img slot="image"
-                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+            <sl-card class="card-overview drinksclass drinks">
+                <img slot="image" src="pic/drinks1.jpg"
                     alt="A kitten sits patiently between a terracotta pot and decorative grasses." />
 
-                <strong>Mittens</strong><br />
+                <strong>Drinks-1</strong><br />
                 This kitten is as cute as he is playful. Bring him home today!<br />
                 <small>6 weeks old</small>
 
@@ -112,12 +106,11 @@
                 </div>
             </sl-card>
 
-            <sl-card class="card-overview">
-                <img slot="image"
-                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-                    alt="A kitten sits patiently between a terracotta pot and decorative grasses." />
+            <sl-card class="card-overview hotdogclass hotdog">
+                <img slot="image" src="pic/hotdog2.jpg"
+                    alt="A kitten sits patiently between a terracotta pot and decorative grasses." height="170px" />
 
-                <strong>Mittens</strong><br />
+                <strong>HotDog-2</strong><br />
                 This kitten is as cute as he is playful. Bring him home today!<br />
                 <small>6 weeks old</small>
 
@@ -127,12 +120,11 @@
                 </div>
             </sl-card>
 
-            <sl-card class="card-overview">
-                <img slot="image"
-                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+            <sl-card class="card-overview drinksclass drinks">
+                <img slot="image" src="pic/drinks2.webp"
                     alt="A kitten sits patiently between a terracotta pot and decorative grasses." />
 
-                <strong>Mittens</strong><br />
+                <strong>Drinks-2</strong><br />
                 This kitten is as cute as he is playful. Bring him home today!<br />
                 <small>6 weeks old</small>
 
@@ -142,13 +134,18 @@
                 </div>
             </sl-card>
 
-           
+
         </div>
     </div>
 
-
     <script type="module"
         src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/shoelace-autoloader.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
     <script src="script.js"></script>
 </body>
 
