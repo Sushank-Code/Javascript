@@ -32,7 +32,7 @@
 
 let str = "Sushank";
 let newstr = str.split("");
-console.log(newstr); // conver into array
+console.log(newstr); // convert into array
 
 newstr = newstr.reverse().join(""); // reverse the array and join( join into single str) with operator
 console.log(newstr);
@@ -49,22 +49,23 @@ console.log(newstr);
 
 // palindrome
 
-string = "101";
-let newstring = "";
-if (typeof string === "number") {
-  string = string.toString();
-}
+// string = "101";
+// let newstring = "";
+// if (typeof string === "number") {
+//   string = string.toString();
+// }
 
-const palindrome = (str) => {
-  str = str.toLowerCase();
-  for (let i of str) {
-    newstring = i + newstring;
-  }
+// const palindrome = (str) => {
+//   str = str.toLowerCase();
+//   for (let i of str) {
+//     newstring = i + newstring;
+//   }
 
-  if (str === newstring) {
-    console.log("palindrome");
-  } else {
-    console.log("No Palindrome");
-  }
-};
-palindrome(string);
+//   if (str === newstring) {
+//     console.log("palindrome");
+//   } else {
+//     console.log("No Palindrome");
+//   }
+// };
+// palindrome(string);
+

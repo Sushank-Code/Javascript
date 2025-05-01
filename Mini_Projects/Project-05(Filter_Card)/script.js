@@ -1,6 +1,5 @@
 // filter logic
 
-
     const buttons = document.querySelectorAll("sl-button");
     const cards = document.querySelectorAll(".card-overview");
 
@@ -22,4 +21,26 @@
             });
         });
     });
+
+    // Searching Logic
+    let inputelement = document.querySelector(".input1");
+    let sbtn = document.querySelector(".searchbtn");
+
+    sbtn.addEventListener("click",()=>{
+        let input = inputelement.value.toLowerCase();
+        let intp = input.replace(/\s/g,'');
+        cards.forEach(card => {
+            if(card.classList.contains(`${intp}class`)){
+                card.style.display = "block";
+            }
+            else{
+                card.style.display = "none";
+                
+            }
+        });
+        console.log("Button was clicked");
+    });
+
+
+
 
