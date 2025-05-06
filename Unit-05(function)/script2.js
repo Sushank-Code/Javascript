@@ -23,3 +23,29 @@ let output = arr_num.reduce((prev,curr) =>{
     return prev + curr;
 });
 console.log(output);
+
+// Some & Every 
+// some = return true if any one condtion matches
+// every = return true if all the condition matches
+
+const person = [
+    {
+        pname : "Person1",
+        age : 20,
+        city : "Lumbini",
+    },
+    {
+        pname : "Person2",
+        age : 30,
+        city:"Kathmandu",
+    },
+];
+let checksomeMethod = person.some((p,index)=>{
+    return p.age === 20;
+});
+console.log(checksomeMethod);
+
+let checkeveryMethod = person.every((p,index)=>{
+    return p.age === 20;
+});
+console.log(checkeveryMethod);

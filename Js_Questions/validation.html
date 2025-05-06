@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> CLient Side Validation</h1>
+        <br>
+        <form action="#" id="validation_form">
+            <div class="name">
+                <label for="uname"> User Name :</label><br>
+                <input type="text" id="uname">
+                <div class="name_error error" ></div>
+            </div>
+            <br>
+            <div class="email">
+                <label for="email"> Email :</label><br>
+                <input type="email" id="email" autocomplete="off">
+                <div class="email_error error"></div>
+            </div>
+            <br>
+            <div class="password">
+                <label for="password"> Password :</label><br>
+                <input type="password" id="password">
+                <div class="p_error error"></div>
+            </div>
+            <br>
+            <div class="confirm_password">
+                <label for="cpassword"> Confirm Password :</label><br>
+                <input type="password" id="cpassword">
+                <div class="cp_error error"></div>
+            </div>
+            <br>
+            <div class="remember">
+                <input type="checkbox" id="remember">
+                <label for="remember"> remember me </label>
+            </div>
+            <br>
+            <button type="submit" id="submit"> submit </button>
+        </form>
+    </div>
+    <hr>
+    <div class="output_data">
+      
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>

@@ -28,7 +28,7 @@ const Product = {
 }
 console.log(Product);
 
-// Object & Array Destructuring
+// Object & Array Destructuring ( Imp )
 
 let employee = {
     'empname' : 'Sushank',
@@ -38,8 +38,11 @@ let employee = {
 let {eid ,empname} = employee;
 console.log(id,empname);
 
+// array
+
 let student = ['hari','krishna'];
 
 let [first_ele] = student;
 
 console.log(first_ele);
+

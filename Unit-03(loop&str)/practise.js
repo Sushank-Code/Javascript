@@ -29,7 +29,6 @@ const fibonacci = (n) => {
 }
 let n=5;
 for (let index = 0; index < n; index++) {
-    console.log(fibonacci(index));
-    
+    console.log(fibonacci(index));  
 }
 

@@ -42,5 +42,3 @@ console.log(reall)
 console.log(str.charAt(10));      // searching character
 
 console.log(str2.split("&"));
-
-
