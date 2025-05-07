@@ -16,7 +16,9 @@ newBtn.remove();
 
 // class list  => used for adding , removing & replacing classes 
 
-div.classList.add("Class_name","foo","boo");
+// classlist.add = only add , doesnot remove if it is present
+
+div.classList.add("Class_name","foo","boo");  
 div.classList.remove("boo");
 div.classList.replace("foo","bar");
 
