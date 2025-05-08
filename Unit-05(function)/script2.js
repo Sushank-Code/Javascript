@@ -7,7 +7,9 @@ let newarr = arr.map( (val) =>{
 });
 console.log(newarr);
 
+
 // Filter (taking out the values if condition matches and give it in new array)
+//  Note : Can combine filter and map too = flatmap or use separately
 
 let arr_num=[2,5,6,8,10,7,13,16,15,45,68,98,75,89,91];
 
@@ -23,6 +25,7 @@ let output = arr_num.reduce((prev,curr) =>{
     return prev + curr;
 });
 console.log(output);
+console.log(typeof(output));
 
 // Some & Every 
 // some = return true if any one condtion matches

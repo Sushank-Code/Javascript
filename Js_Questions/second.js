@@ -14,3 +14,15 @@ function something( a , b , ...c){
 }
 
 something(1,2,3,4,5);
+
+// String  -> object
+
+// "a.b.c.d.e" => { a:{b:{c:{d:'e'}}} }
+
+const str = "a.b.c.d.e";
+const strarr = str.split(".");
+console.log(strarr);
+const obj = strarr.reduceRight((prev,curr)=>{
+    return {[curr]:prev}
+});
+console.log(obj);

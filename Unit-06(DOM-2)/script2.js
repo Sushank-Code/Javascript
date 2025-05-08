@@ -14,7 +14,7 @@ div.append(newBtn);      // This property is used only for adding element or tex
 
 newBtn.remove();
 
-// class list  => used for adding , removing & replacing classes 
+// class list  => used for adding , removing & replacing classes , ( toogle )
 
 // classlist.add = only add , doesnot remove if it is present
 

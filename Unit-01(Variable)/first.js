@@ -1,5 +1,3 @@
-
-
 console.log("Hello World");
 console.log("Sushank Lamsal");
 

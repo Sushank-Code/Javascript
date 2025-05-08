@@ -1,21 +1,30 @@
-// let fullName = prompt("Enter the full name");
-// let ad1 = "@";
-// let ad2 = fullName.length;
+/*
 
-// let joining = ad1 + fullName + ad2;
-// console.log(joining);
+let fullName = prompt("Enter the full name");
+let ad1 = "@";
+let ad2 = fullName.length;
+
+let joining = ad1 + fullName + ad2;
+console.log(joining); 
+
+*/
 
 // Sorting
 
-// let nums1 = [2, 6, 7, 0, 0, 1];
-// let nums = [2, 5, 6, 10];
+/*
 
-// nums.sort((a, b) => {
-//     return a - b;
-// });
-// console.log(nums);
+let nums1 = [2, 6, 7, 0, 0, 1];
+let nums = [2, 5, 6, 10];
+
+nums.sort((a, b) => {
+    return a - b;
+});
+console.log(nums);
+
+*/
 
 // Other Method
+
 // nums.sort(function (a,b) {
 //    return a-b;
 // });

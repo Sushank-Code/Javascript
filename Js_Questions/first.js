@@ -45,4 +45,3 @@ let student = ['hari','krishna'];
 let [first_ele] = student;
 
 console.log(first_ele);
-
