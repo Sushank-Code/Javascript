@@ -21,6 +21,7 @@ newBtn.remove();
 div.classList.add("Class_name","foo","boo");  
 div.classList.remove("boo");
 div.classList.replace("foo","bar");
+div.classList.toggle("hello"); // if there is no , put ; if there is yes, remove
 
 if (div.classList.contains("bar")) {
     console.log("Yes");
