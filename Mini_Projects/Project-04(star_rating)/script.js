@@ -9,10 +9,10 @@ star_list.forEach((star, i1) => {
     star.addEventListener("click", () => {   
         star_list.forEach((star, i2) => {
             if (i1 >= i2) {
-                // console.log(i1,i2);
+                console.log(i1,i2);
                 star.classList.add("active");
             } else {
-                // console.log(i1,i2);
+                console.log(i1,i2);
                 star.classList.remove("active");
             }
         });
