@@ -36,7 +36,7 @@ let employee = {
     'Company': 'epic game'
 }
 let {eid ,empname} = employee;
-console.log(id,empname);
+console.log(eid,empname);
 
 // array
 
