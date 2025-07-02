@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const fetchcurr = async () => {
+            try {
+                let response = await fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json`)
+                if (!response.ok) {
+                    throw new Error(`Error ${response.status}: ${response.statusText}`);
+                }
+                let res = await response.json();
+              
+                console.log(res.usd.npr)
+                console.log(res["usd"]["npr"])
+                console.log(typeof(res))
+            }
+            catch (error) {
+                console.log(error);
+            }
+        }
+        
+        fetchcurr()
+    </script>
+</body>
+</html>
