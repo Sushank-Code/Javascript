@@ -33,3 +33,12 @@ console.log(income2.printMarks());
 console.log(income2["fullName"]);
 
 console.log(income.fullName); // Print its own if key is same
+
+// This gives the array 
+console.log(Object.keys(student))
+console.log(Object.values(student))
+console.log(Object.entries(student))
+
+//Object destructing = destructing must be same with key of object
+const {fullName,Marks} = student
+console.log(fullName,Marks)
