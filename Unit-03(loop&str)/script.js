@@ -29,7 +29,7 @@ do {
     console.log("Sushank Lamsal");// execute at least one time even if cond doesnot match
 } while (z <= 10);
 
-// for - of Loop      (string & array)
+// for - of Loop      (string & array)  (iterates values)
 
 let str = "Sushank";
 let length = 0;
@@ -39,7 +39,7 @@ for (let i of str) {
 }
 console.log("Length :", length);
 
-// for - in Loop.  (Object & array)
+// for - in Loop.  (Object & array) (iterates keys and index)
 let student = {
     name: "Sushank Lamsal",
     age: 20,

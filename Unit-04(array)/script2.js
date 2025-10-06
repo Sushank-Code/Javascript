@@ -48,7 +48,7 @@ console.log(items.slice(-3,));
 // let del = items.splice(2,2);  // remove element from 2 index and how many element to remove 2
 
 let del = items.splice(2, 2, "masu", "Khasi"); 
-// can be added item at that index which is removed
+// can be added item at that index which is removed ( here both string is added at that removed index
 
 items.splice(2);                            // removing all items from 2th index
 console.log(items);

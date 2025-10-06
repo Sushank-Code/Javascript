@@ -8,7 +8,7 @@ let newarr = arr.map( (val) =>{
 console.log(newarr);
 
 
-// Filter (taking out the values if condition matches and give it in new array)
+// Filter (taking out the values if condition matches and give it in new aray)
 //  Note : Can combine filter and map too = flatmap or use separately
 
 let arr_num=[2,5,6,8,10,7,13,16,15,45,68,98,75,89,91];
@@ -52,3 +52,10 @@ let checkeveryMethod = person.every((p,index)=>{
     return p.age === 20;
 });
 console.log(checkeveryMethod);
+
+// find method   ( gives the first element if condition matches)
+
+let num_array = [5,10,15,20,30]
+
+let match = num_array.find((num) => num > 10)
+console.log(match)

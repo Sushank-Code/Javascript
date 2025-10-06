@@ -27,8 +27,9 @@ console.dir(id_name);
 
 console.log(id_name.tagName);
 console.log(class_name.innerText);
-console.log(class_name.innerHTML);
+console.log(class_name.innerHTML);    // Gives the whole html with tags
 
 class_name.innerText = "demo";
 
-console.log(id_name.textContent);  // if the text is hidden then use 'textContent'
+console.log(id_name.textContent);       // Gives the text , ignores the html tags 
+console.log(class_name.textContent);   

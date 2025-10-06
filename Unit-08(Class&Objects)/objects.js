@@ -42,3 +42,16 @@ console.log(Object.entries(student))
 //Object destructing = destructing must be same with key of object
 const {fullName,Marks} = student
 console.log(fullName,Marks)
+
+// adding properties
+
+student.age = 20 ;
+console.log("Adding",student)
+
+// deleting 
+delete student.age;
+console.log(student)
+
+// checking if property exists
+console.log("Marks" in student)
+console.log(student?.job)        // optional chaining (Imp)
